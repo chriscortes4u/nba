@@ -1,13 +1,13 @@
 {
-  "name": "relief-student",
+  "name": "nba-project",
   "version": "1.0.0",
-  "description": "relief tracker application",
+  "description": "nba-project application",
   "main": "index.js",
   "scripts": {
     "start": "node API/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "TripOtt",
+  "author": "chriscortes4u",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -21,5 +21,15 @@
     "server-summary": "^6.0.1",
     "url": "^0.11.0",
     "zero-config": "^7.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriscortes4u/relief-student-views-complete.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/chriscortes4u/relief-student-views-complete/issues"
+  },
+  "homepage": "https://github.com/chriscortes4u/relief-student-views-complete#readme"
 }

@@ -15,7 +15,7 @@ const limit = 10;
 // });
 
 
-dalNoSQL.listPersons(sortBy, 'Johnsonperson_gary.johnson1971@gmail.com', limit, function callback(err, data) {
+dalNoSQL.listPersons(sortBy, limit, function callback(err, data) {
     if (err) {
       console.log(err)
       }
