@@ -1,6 +1,6 @@
 const dalNoSQL = require('./DAL/no-sql.js');
 
-var theListPersonCallback = function(err, theResultFromTheQuery) {
+var theListTeamCallback = function(err, theResultFromTheQuery) {
     if (err)
         return console.log(err.message)
     console.log(JSON.stringify(theResultFromTheQuery.rows,null, 2))
@@ -14,8 +14,8 @@ var theListPersonCallback = function(err, theResultFromTheQuery) {
 // dalNoSQL.listPersons(sortBy, startKey, limit, theListPersonCallback)
 
 
-const sortBy = 'emailView'
+const sortBy = 'teamView'
 const startkey = ""
 const limit = 2
 
-dalNoSQL.listPersons(sortBy, startkey, limit, theListPersonCallback)
+dalNoSQL.listTeam(sortBy, startkey, limit, theListTeamCallback)
